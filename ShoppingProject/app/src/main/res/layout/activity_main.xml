@@ -3,11 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ricky.shopping.MainActivity">
+    tools:context="com.ricky.shopping.ExampleActivity">
 
-    <TextView
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="{fa-coffee}"
+        tools:ignore="HardcodedText" />
 
 </RelativeLayout>
